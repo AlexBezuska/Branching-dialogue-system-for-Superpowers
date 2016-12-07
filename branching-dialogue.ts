@@ -4,42 +4,41 @@ let dialogue = {
     speaker : "system",
     message : "I am error."
   },
-  "owl-greeting" : {
-    speaker : "owl",
-    avatar: "Images/avatar-owl",
-    avatarAnimation: "avatar-owl-talk",
-    message : "Hello there bear.",
-    next: "owl2"
+  "gregory-greeting" : {
+    speaker : "gregory",
+    avatar: "Images/avatar-gregory",
+    avatarAnimation: "avatar-gregory-talk",
+    message : "Hello Francis I haven't seen you in a while!.",
+    next: "gregory2"
   },
-  "owl2" : {
-    speaker : "owl",
-    avatar: "Images/avatar-owl",
-    avatarAnimation: "avatar-owl-talk",
-    message : "Hello there bear. The winds have been \n blowing stronger than ever before...",
-    next: "owl2-1"
+  "gregory2" : {
+    speaker : "gregory",
+    avatar: "Images/avatar-gregory",
+    avatarAnimation: "avatar-gregory-talk",
+    message : "Hello there Francis, I have a favor to ask of you...",
+    next: "gregory2-1"
   },
-  "owl2-1" : {
-    speaker : "owl",
-    avatar: "Images/avatar-owl",
-    avatarAnimation: "avatar-owl-talk",
-    message : "Are you worried about the moths leaving?",
+  "gregory2-1" : {
+    speaker : "gregory",
+    avatar: "Images/avatar-gregory",
+    avatarAnimation: "avatar-gregory-talk",
+    message : "Will you go get 16 water from the sacred springs for me?",
     choices: [
-      { displayText: "I am...", next: "owl2-2" },
-      { displayText: "Not at all", next: "owl2-3" }
+      { displayText: "I accept", next: "gregory2-2" },
+      { displayText: "I'm afraid", next: "gregory2-3" }
     ],
   },
-  "owl2-2" : {
-    speaker : "owl",
-    avatar: "Images/avatar-owl",
-    avatarAnimation: "avatar-owl-talk",
-    message : "Go to the luna tree in the north and see \n the moth queen for answers.",
-    quest: "Visit Queen Luna to the north."
+  "gregory2-2" : {
+    speaker : "gregory",
+    avatar: "Images/avatar-gregory",
+    avatarAnimation: "avatar-gregory-talk",
+    message : "That's the spirit, take my horse Lucinda and ride north!."
   },
-  "owl2-3" : {
-    speaker : "owl",
-    avatar: "Images/avatar-owl",
-    avatarAnimation: "avatar-owl-talk",
-    message : "If you aren't worried then you aren't \n paying attention..."
+  "gregory2-3" : {
+    speaker : "gregory",
+    avatar: "Images/avatar-gregory",
+    avatarAnimation: "avatar-gregory-talk",
+    message : "I understand you must not like cash money..."
   },
 };
 
